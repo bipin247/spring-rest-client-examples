@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Employee Details</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<form action="/form" method="post">
+    <fieldset>
+        <legend>Limit Details</legend>
+
+        <div>
+            <label for="limit">Limit: </label>
+            <input name="limit" type="number">
+        </div>
+
+        <br />
+        <div>
+            <input type="reset" value="Reset" />
+            <input type="submit" value="Submit" />
+        </div>
+    </fieldset>
+</form>
+</body>
+</html>
